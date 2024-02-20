@@ -1,6 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import MusicCard from './components/HelloWorld.vue'
+
 </script>
 
 <template>
@@ -8,6 +10,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
+      <MusicCard musicName="Nom de la musique" albumPhoto="url_de_l_album.jpg" msg="bonjour" />
+
       <HelloWorld msg="You did it!" />
 
       <nav>
@@ -18,7 +22,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
-</template>
+</template> 
 
 <style scoped>
 header {
