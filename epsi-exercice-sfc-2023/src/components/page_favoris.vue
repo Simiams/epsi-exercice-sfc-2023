@@ -24,36 +24,26 @@ export default {
 
     onMounted(checkIsFavorite);
 
-    return { isFavorite, ajoutFravoris, supprimerDeFavoris };
-  }
-};
-</script>
+    const favoriteAlbums = ref([]);
 
-<script>
-export default {
-  data() {
-    return {
-      favoriteAlbums: []
-    };
-  },
-  mounted() {
-    this.loadFavoriteAlbums();
-  },
-  methods: {
-    loadFavoriteAlbums() {
+    const loadFavoriteAlbums = () => {
       for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         if (key.startsWith('favoriteAlbum_')) {
           const album = JSON.parse(localStorage.getItem(key));
-          this.favoriteAlbums.push(album);
+          favoriteAlbums.value.push(album);
         }
       }
-    },
-    removeFromFavorites(album) {
-      this.favoriteAlbums = this.favoriteAlbums.filter(favorite => favorite.id !== album.id);
+    };
 
+    const removeFromFavorites = (album) => {
+      favoriteAlbums.value = favoriteAlbums.value.filter(favorite => favorite.id !== album.id);
       localStorage.removeItem('favoriteAlbum_' + album.id);
-    }
+    };
+
+    onMounted(loadFavoriteAlbums);
+
+    return { isFavorite, ajoutFravoris, supprimerDeFavoris, favoriteAlbums, removeFromFavorites };
   }
 };
 </script>
