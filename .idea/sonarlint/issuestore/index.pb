@@ -19,3 +19,13 @@ _
 /epsi-exercice-sfc-2023/src/views/SearchPage.vue,0/4/045952e2ebafe90b436d8229fb433159d59236c0
 b
 2epsi-exercice-sfc-2023/src/views/FavoritesPage.vue,2/8/28fdf882b2b419c69aa386253ea6d0c8cedd46fa
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+f
+6epsi-exercice-sfc-2023/src/components/page_favoris.vue,b/8/b80ab6d0705bf74f726f3cd9d1902a2cb230d4de
+c
+3epsi-exercice-sfc-2023/src/components/MusicCard.vue,5/9/59887b14b20bf3953a45918929583d86c7e13c51
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
