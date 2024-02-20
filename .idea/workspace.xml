@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b3af699-4631-453d-8639-ad711d957987" name="Changes" comment="ouss" />
+    <list default="true" id="1b3af699-4631-453d-8639-ad711d957987" name="Changes" comment="ouss">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-exercice-sfc-2023/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-exercice-sfc-2023/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-exercice-sfc-2023/src/components/page_favoris.vue" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-exercice-sfc-2023/src/components/page_favoris.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-exercice-sfc-2023/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-exercice-sfc-2023/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -105,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708424772436</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ouss">
+      <option name="closed" value="true" />
+      <created>1708424929388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708424929388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
