@@ -14,6 +14,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/search">Search</RouterLink>
         <RouterLink to="/favorites">Favorites</RouterLink>
+        <RouterLink :to="{ name: 'album', params: { albumId: 1 }}">User</RouterLink>
+
       </nav>
     </div>
   </header>
